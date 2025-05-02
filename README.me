@@ -1,68 +1,80 @@
-# 🎲 Roll The Dice
+# 🎲 Roll The Dice – Fullstack Dice Simulator
 
-This project was developed as part of a technical challenge for a junior fullstack position at Directy.
+This is a simple fullstack project developed for a technical challenge at Directy.
+The goal is to simulate RPG-style dice rolls using a clean frontend interface integrated with a backend API.
 
-The goal is to simulate dice rolls using a fullstack approach — combining a simple frontend interface with a backend API that processes the logic and returns results.
+---
 
-## 🛠️ Technologies Used
+## 🧠 Challenge Requirements
 
-- **Frontend:** HTML, CSS, JavaScript (Vanilla)
-- **Backend:** Node.js + Express
+- Create a frontend interface with a dice selector and roll button
+- Build a backend API that returns random results based on selected dice
+- Implement integration between frontend and backend
+- Write clean, well-structured, and beginner-friendly code
 
-## 📁 Project Structure
-
-```
-roll-the-dice-challenge/
-├── backend/           # Node.js API for dice rolling
-│   ├── server.js
-│   └── package.json
-├── frontend/          # HTML/CSS/JS interface
-│   ├── index.html
-│   ├── script.js
-│   └── styles.css
-└── README.md          # Project documentation
-```
-
-## 🚀 How to Run Locally
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/msma87/roll-the-dice-challenge
-cd roll-the-dice-challenge
-```
-
-### 2. Start the backend server
-
-```bash
-cd backend
-npm install
-npm start
-```
-
-The server will run at: [http://localhost:3000](http://localhost:3000)
-
-### 3. Open the frontend
-
-Use the Live Server extension in VS Code to run `frontend/index.html`, or simply open the file in your browser.
+---
 
 ## ✨ Features
 
-- Choose from six different dice types (D4, D6, D8, D10, D12, D20)
-- Backend processes the roll and returns a random result
-- Simple UI and clean code structure
-- Clear separation between client and server logic
+- 🎲 Choose between D4, D6, D8, D10, D12, and D20
+- 🔄 Dice roll logic handled by backend using Express
+- 📡 Frontend communicates with backend via fetch API
+- 🧼 Minimalistic design and clear project structure
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript** (Vanilla)
+- **Node.js** with **Express.js**
+- **CORS** middleware for API access
+
+---
+
+## 📂 Project Structure
+
+```
+roll-the-dice-challenge/
+├── backend/            # Backend API with Node.js + Express
+│   ├── server.js
+│   └── package.json
+├── frontend/           # Frontend interface
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+└── README.md           # Project documentation
+```
+
+---
+
+## 💻 How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/msma87/roll-the-dice-challenge
+   ```
+
+2. Navigate to the project folder:
+   ```bash
+   cd roll-the-dice-challenge
+   ```
+
+3. Start the backend server:
+   ```bash
+   cd backend
+   npm install
+   npm start
+   ```
+
+4. Open the frontend:
+   - Use **Live Server** in VS Code to open `frontend/index.html`
+   - Or open the file directly in your browser
+
+---
 
 ## 👩‍💻 About the Developer
 
-I'm Máira Senna, a junior fullstack developer currently transitioning into tech. I recently completed an intensive bootcamp focused on Ruby on Rails, HTML, CSS, and JavaScript.
-
-This project reflects my ability to:
-- Work with APIs
-- Organize code clearly
-- Build functional fullstack features
-- Learn and grow continuously
-
-## 📝 Notes
-
-This is a minimal and functional implementation focused on code clarity and correct integration. Additional features like roll history, animations, or styling improvements can be explored in future iterations.
+This project was developed as part of a Fullstack Developer technical challenge.  
+It reflects my focus on clean code, practical problem-solving, and hands-on experience integrating frontend and backend logic as a junior developer in transition to tech.
