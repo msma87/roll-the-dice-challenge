@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roll The Dice</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>🎲 Roll The Dice</h1>
+
+    <!-- Dice selector -->
+    <label for="dice-select">Choose your dice:</label>
+    <select id="dice-select">
+      <option value="4">D4</option>
+      <option value="6" selected>D6</option>
+      <option value="8">D8</option>
+      <option value="10">D10</option>
+      <option value="12">D12</option>
+      <option value="20">D20</option>
+    </select>
+
+    <!-- Roll button -->
+    <button id="roll-button">Roll</button>
+
+    <!-- Result display -->
+    <div id="result" class="result"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
