@@ -6,7 +6,7 @@ document.getElementById('roll-button').addEventListener('click', async () => {
 
   try {
     // Send POST request to backend
-    const res = await fetch('http://localhost:3000/roll', {
+    const res = await fetch('https://roll-the-dice-challenge.onrender.com/roll', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ sides })

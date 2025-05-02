@@ -1,5 +1,8 @@
 # 🎲 Roll The Dice – Fullstack Dice Simulator
 
+🔗 [Live Demo (Frontend)](https://msma87.github.io/roll-the-dice-challenge/)
+🔗 [Live Backend API](https://roll-the-dice-challenge.onrender.com/roll)
+
 This is a simple fullstack project developed for a technical challenge at Directy.
 The goal is to simulate RPG-style dice rolls using a clean frontend interface integrated with a backend API.
 
@@ -18,7 +21,7 @@ The goal is to simulate RPG-style dice rolls using a clean frontend interface in
 
 - 🎲 Choose between D4, D6, D8, D10, D12, and D20
 - 🔄 Dice roll logic handled by backend using Express
-- 📡 Frontend communicates with backend via fetch API
+- 📡 Frontend communicates with deployed backend via Render
 - 🧼 Minimalistic design and clear project structure
 
 ---
@@ -29,7 +32,8 @@ The goal is to simulate RPG-style dice rolls using a clean frontend interface in
 - **CSS3**
 - **JavaScript** (Vanilla)
 - **Node.js** with **Express.js**
-- **CORS** middleware for API access
+- **Render.com** (Backend hosting)
+- **GitHub Pages** (Frontend hosting)
 
 ---
 
@@ -49,32 +53,25 @@ roll-the-dice-challenge/
 
 ---
 
-## 💻 How to Run the Project
+## 💻 How to Run Locally (optional)
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/msma87/roll-the-dice-challenge
    ```
 
-2. Navigate to the project folder:
+2. Start the backend server:
    ```bash
-   cd roll-the-dice-challenge
-   ```
-
-3. Start the backend server:
-   ```bash
-   cd backend
+   cd roll-the-dice-challenge/backend
    npm install
    npm start
    ```
 
-4. Open the frontend:
-   - Use **Live Server** in VS Code to open `frontend/index.html`
-   - Or open the file directly in your browser
+3. Open the frontend from `frontend/index.html` or with Live Server.
 
 ---
 
 ## 👩‍💻 About the Developer
 
-This project was developed as part of a Fullstack Developer technical challenge.  
+This project was developed as part of a Fullstack Developer technical challenge.
 It reflects my focus on clean code, practical problem-solving, and hands-on experience integrating frontend and backend logic as a junior developer in transition to tech.
