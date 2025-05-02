@@ -1,0 +1,22 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+select, button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.result {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
